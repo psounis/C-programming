@@ -12,18 +12,16 @@ main()
 {
   //5.1 Dilwsi statherwn kai metavlitwn tis main
   int i,sum;
-  const int number;
+  const int number=10;
   
-  number=48;
-  
-
   //5.2 entoles tis main
-  
+
+  sum=0;   
   for (i=number; i<=N; i++)
     sum=sum+i;
   
   printf("To athroisma twn arithmwn [%d..%d] einai %d",number,N,sum);
-
 }
+
 //6. Edw tha exoyme ta swmata twn sinartisewn
 
