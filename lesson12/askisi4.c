@@ -80,7 +80,7 @@ int mystrlen(char *s)
 
 char *mystrcpy(char *dest, char *src)
 {
-	int i;
+	int i=0;
 	
 	while (1)
 	{
